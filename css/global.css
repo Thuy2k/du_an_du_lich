@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'SF Pro Display Regular';
+    src: url('../fonts/SF-Pro-Display-Regular.otf') format('opentype');
+    font-style: normal;
+    /* Chỉ cần set font-style */
+}
+
+@font-face {
+    font-family: 'SF Pro Display Medium';
+    src: url('../fonts/SF-Pro-Display-Medium.otf') format('opentype');
+    font-style: normal;
+    /* Chỉ cần set font-style */
+}
+
+@font-face {
+    font-family: 'SF Pro Display Semibold';
+    src: url('../fonts/SF-Pro-Display-Semibold.otf') format('opentype');
+    font-style: normal;
+    /* Chỉ cần set font-style */
+}
+
+@font-face {
+    font-family: 'SF Pro Display Bold';
+    src: url('../fonts/SF-Pro-Display-Bold.otf') format('opentype');
+    font-style: normal;
+    /* Chỉ cần set font-style */
+}
+
+@font-face {
+    font-family: 'SF Pro Display Black';
+    src: url('../fonts/SF-Pro-Display-Black.otf') format('opentype');
+    font-style: normal;
+    /* Chỉ cần set font-style */
+}
+
+
+
+/* Sử dụng font trong toàn bộ trang */
+body {
+    font-family: 'SF Pro Display Regular', sans-serif;
+    /* Mặc định là Regular */
+}
