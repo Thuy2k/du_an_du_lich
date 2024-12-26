@@ -1,0 +1,127 @@
+/* ---------section-3--------- */
+
+
+.section-3 .p-1 {
+    color: #333333;
+    font-size: 24px;
+}
+
+.section-3 .div-mo-ta p {
+    margin-bottom: 0px;
+}
+
+.section-3 .div-mo-ta p {
+    margin-bottom: 0px;
+}
+
+.section-3 .div-inner-item-sl {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+    padding-bottom: 21px;
+}
+
+.section-3 .item-sl {
+    padding: 10px;
+}
+
+.section-3 .d-item-2 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.section-3 .div-mo-ta {
+    padding-top: 4PX;
+    border-top: 2px solid #b194945e;
+    margin-top: 8px;
+}
+
+.section-3 .div-mo-ta p {
+    font-size: 14px;
+}
+
+.slick-prev,
+.slick-next {
+    background-color: #007bff;
+    /* Màu nền xanh đậm */
+    color: white;
+    /* Màu chữ trắng */
+    border: none;
+    /* Không có viền */
+    padding: 10px 15px;
+    /* Khoảng cách bên trong */
+    border-radius: 5px;
+    /* Bo góc */
+    font-size: 16px;
+    /* Kích thước chữ */
+    cursor: pointer;
+    /* Con trỏ chuột khi di chuột qua */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    /* Bóng đổ */
+    transition: background-color 0.3s, transform 0.3s;
+    /* Hiệu ứng chuyển tiếp */
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+    background-color: #0056b3;
+    /* Màu nền khi di chuột qua */
+    transform: translateY(-2px);
+    /* Nâng nút lên khi di chuột qua */
+}
+
+/* ----------end section-3----------- */
+.section-4 .img-1 {
+    width: 72px;
+}
+
+.section-4 .line-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-4 .div-mo-ta {
+    padding-top: 4PX;
+    border-top: 2px solid #b194945e;
+    margin-top: 8px;
+}
+
+.section-4 .div-mo-ta p {
+    font-size: 14px;
+}
+
+
+.section-4 .img-1 {
+    width: 72px;
+}
+
+.section-4 .d-item-2 .p-1 {
+    font-size: 20px;
+    color: #333333;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.section-4 .d-item-2 {
+    padding-left: 14px;
+}
+
+.section-4 .div-1 {
+    padding-bottom: 7px;
+    padding-left: 12px;
+    padding-top: 14px;
+}
+
+.section-4 .line-2 .item-1 {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    width: 33%;
+    border-radius: 20px;
+    position: relative;
+}
+
+.section-4 .icon-click {
+    position: absolute;
+    right: 14px;
+    top: 8px;
+    width: 31px;
+    cursor: pointer;
+}

@@ -8,10 +8,10 @@ $(document).ready(function () {
     });
 
     $(document).ready(function () {
-        $('.ticket-slider').slick({
+        $('#sl-1').slick({
             slidesToShow: 3,  // Số lượng item hiển thị
             slidesToScroll: 3,  // Số lượng item trượt mỗi lần
-            autoplay: true,  // Tự động chạy
+            autoplay: false,  // Tự động chạy
             autoplaySpeed: 2000,  // Thời gian giữa các lần tự động
             dots: false,  // Hiển thị dấu chấm
             arrows: true,  // Hiển thị nút điều khiển

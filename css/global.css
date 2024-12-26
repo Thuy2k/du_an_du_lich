@@ -40,3 +40,51 @@ body {
     font-family: 'SF Pro Display Regular', sans-serif;
     /* Mặc định là Regular */
 }
+
+
+
+body {
+    overflow-x: hidden;
+    /* Ngăn chặn thanh cuộn ngang */
+}
+
+.container {
+    /* overflow-x: hidden; */
+    /* Ngăn chặn thanh cuộn ngang */
+}
+
+@media (min-width: 1200px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1160px;
+    }
+}
+
+
+
+
+
+
+
+
+.icon-box-1 {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5px;
+}
+
+.icon-box-1 .img-icon {
+    width: 18px;
+    position: relative;
+    top: 7px;
+}
+
+.icon-box-1 .text-icon {}
+
+.icon-box-1 .text-icon span {
+    color: #FF387E;
+}
